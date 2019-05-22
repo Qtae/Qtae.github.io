@@ -1,7 +1,7 @@
 # Site Info
-title: QTAE 
-tagline: 'HELLOWORLD'
-description: 'HELLOHELLO'
+title: "QTAE's Blog"
+tagline: ''
+description: ''
 baseurl: ''
 url: https://qtae.github.io
 logo: '/public/logo.png'
