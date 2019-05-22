@@ -1,7 +1,7 @@
 # Site Info
-title: HELLOWORLD
-tagline: 'A Jekyll theme based on Lanyon'
-description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
+title: QTAE
+tagline: 'HELLOWORLD'
+description: 'HELLOHELLO'
 baseurl: ''
 url: https://qtae.github.io
 logo: '/public/logo.png'
@@ -39,18 +39,19 @@ author:
 nav:
   Home:           
     - '/'
-  Computer:           
-    - '/blog/'
-    - { Computer: '/blog/categories/' }
-    - { Python: '/blog/tags/' }
-    - { Tensorflow: '/blog/tags/'}
-  MachineLearning:          
-    - '/about/'
-    - { Statistics: '/blog/tags/'}
-  Drawing:
-    - '/about/'
+  Computer Science:           
+    - '/CS/'
+    - { Computer: '/CS/co/' }
+    - { C: '/CS/ccppds'}
+    - { Python: '/CS/python/' }
+    - { Tensorflow: '/blog/tf/'}
+  Machine Learning:          
+    - '/ML/'
+    - { Statistics: '/ML/stat/'}
+  Painting:
+    - '/PI/'
   Music:
-    - '/about/'
+    - '/MI/'
   Github: 
     - 'http://qtae.github.io/'
 
@@ -65,5 +66,5 @@ hero:
 # Puglins
 mathjax: true # whether support mathjax
 google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
-disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
+disqus_short_name: '' # leave blank if you don't want disqus
 
