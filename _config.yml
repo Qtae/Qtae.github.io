@@ -42,13 +42,11 @@ nav:
   Computer:           
     - '/blog/'
     - { Computer: '/blog/categories/' }
-    - { C & C++: '/blog/tags/' }
     - { Python: '/blog/tags/' }
     - { Tensorflow: '/blog/tags/'}
-    - { TCP/IP: '/blog/tags'}
   MachineLearning:          
     - '/about/'
-    - { Statistics: '/about/'}
+    - { Statistics: '/blog/tags/'}
   Drawing:
     - '/about/
   Music:
