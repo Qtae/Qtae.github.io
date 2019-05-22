@@ -39,14 +39,22 @@ author:
 nav:
   Home:           
     - '/'
-  Blog:           
+  Computer:           
     - '/blog/'
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
-  About:          
+    - { Computer: '/blog/categories/' }
+    - { C & C++: '/blog/tags/' }
+    - { Python: '/blog/tags/' }
+    - { Tensorflow: '/blog/tags/'}
+    - { TCP/IP: '/blog/tags'}
+  MachineLearning:          
     - '/about/'
-  Github Project: 
-    - 'http://codinfox.github.io/'
+    - { Statistics: '/about/'}
+  Drawing:
+    - '/about/
+  Music:
+    - '/about/'
+  Github: 
+    - 'http://qtae.github.io/'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
