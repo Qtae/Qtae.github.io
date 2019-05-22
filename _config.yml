@@ -1,5 +1,5 @@
 # Site Info
-title: QTAE
+title: QTAE 
 tagline: 'HELLOWORLD'
 description: 'HELLOHELLO'
 baseurl: ''
@@ -33,7 +33,7 @@ author:
     # facebook:  <hide>
     # twitter:   <hide>
     # weibo:     <hide>
-    email:  qtkim91@gmail.com
+    # email:  qtkim91@gmail.com
 
 # Navigation (2nd level links supported)
 nav:
@@ -41,19 +41,20 @@ nav:
     - '/'
   Computer Science:           
     - '/CS/'
-    - { Computer: '/CS/co/' }
-    - { C: '/CS/ccppds'}
+    - { Computer Organization: '/CS/co/' }
+    - { OS: 'CS/os'}
+    - { C/C++ & Data Structure: '/CS/ccppds'}
     - { Python: '/CS/python/' }
-    - { Tensorflow: '/blog/tf/'}
+    - { TCP/IP: '/CS/tcpip'}
   Machine Learning:          
     - '/ML/'
     - { Statistics: '/ML/stat/'}
+    - { Tensorflow: '/ML/tf/'}
+    - { Machine Learning: '/ML/ml'}
   Painting:
     - '/PI/'
   Music:
     - '/MI/'
-  Github: 
-    - 'http://qtae.github.io/'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
