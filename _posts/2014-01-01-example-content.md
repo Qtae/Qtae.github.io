@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Example content
+categories: TEST2
+tags: TEST2
 ---
 
 
