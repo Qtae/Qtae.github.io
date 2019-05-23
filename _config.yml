@@ -61,7 +61,7 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 hero:
-  image: /public/img/mind.jpg
+  image: /public/img/mind.png
   caption: Original Artwork &copy; <a href="https://www.instagram.com/p/BojF94bnoej/?utm_source=ig_web_copy_link">Qtae</a>
 
 # Puglins
