@@ -7,12 +7,14 @@ title: Computer Origanization
   <div class="tags-expo-section">
     <ul class="tags-expo-posts">
     {% for post in site.categories.TEST1 %}
+    {% if loop.index <= 5 %}
       <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
     <li>
       {{ post.title }}
     <small class="post-date">{{ post.date | date_to_string }}</small>
     </li>
     </a>
+    {% endif &}
     {% endfor %}
     </ul>
   </div>
