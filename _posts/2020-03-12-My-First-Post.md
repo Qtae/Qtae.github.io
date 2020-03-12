@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HEY! this is QLog
+title: HEY! this is QtLog
 categories: Computer_Organization
 tags: Computer_Organization
 ---
