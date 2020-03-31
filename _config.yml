@@ -1,71 +1,40 @@
-# Site Info
-title: "QtLog"
-tagline: ''
-description: ''
-baseurl: ''
-url: https://qtae.github.io
-logo: '/public/logo.png'
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# Site configurations
-gems:
-  - jekyll-paginate
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
 markdown: kramdown
-kramdown:
-  input: GFM
-excerpt_separator: "<!-- more -->"
-sass:
-  style: compressed
-  sass_dir: _scss    
-paginate: 5
-paginate_path: '/blog/page:num'
-permalink: pretty
+disqus: QtLog
+google_analytics: QtLog
+title: QtLog
 
-version: 1.0.0
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: QtLog
 
-# About/contact
+description: itsallwaves.
 author:
-  name: Qtae
-  description: ITSALLWAVES.
-  gravatar: ba807938e49ac72602ab4a7e9b46a031 # md5 hash of your email address
-  contact:
-    linkedin:  https://www.linkedin.com/in/kyutae-kim-352849168/
-    github:    https://github.com/Qtae
-    # facebook:  <hide>
-    # twitter:   <hide>
-    # weibo:     <hide>
-    # email:  qtkim91@gmail.com
+  name: QtLog
+  email: qtkim91@gmail.com
+  github: Qtae
+  twitter: qtkim91
+  pinterest: qtkim91
+  linkedin: kyutae-kim-352849168
+  bio: itsallwaves.
+  email_md5: asdf
 
-# Navigation (2nd level links supported)
-nav:
-  Home:           
-    - '/'
-  Computer Science:           
-    - '/CS/'
-    - { Computer Organization: '/CS/co/' }
-    - { OS: 'CS/os'}
-    - { C/C++ & Data Structure: '/CS/ccppds'}
-    - { Python: '/CS/python/' }
-    - { TCP/IP: '/CS/tcpip'}
-  Machine Learning:          
-    - '/ML/'
-    - { Statistics: '/ML/stat/'}
-    - { Tensorflow: '/ML/tf/'}
-    - { Machine Learning: '/ML/ml'}
-  Painting:
-    - '/PI/'
-  Music:
-    - '/MI/'
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
 
-# Where are tags and categories displayed
-tag_page: '/blog/tags/'
-category_page: '/blog/categories/'
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
 
-hero:
-  image: /public/img/barbie.png
-  caption: Original Artwork &copy; <a href="https://www.instagram.com/p/BqpaHrmhMGb/?utm_source=ig_web_copy_link">Qtae</a>
+BASE_PATH:
 
-# Puglins
-mathjax: true # whether support mathjax
-google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
-disqus_short_name: '' # leave blank if you don't want disqus
-
+plugins:
+  - jekyll-paginate
